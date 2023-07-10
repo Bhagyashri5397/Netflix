@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+.main-container{
+    width: 100%;
+    height:auto;
+    background-color: rgb(11, 11, 11);
+}
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(15, 17, 17);
+}
+nav img{
+    width: 200px;
+    
+}
+nav span button{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.container{
+    width: 100%;
+    height: auto;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.box-1{
+    width: 100%;
+    height: 600px;
+    border-radius: 50px;
+    padding-left: 100px;
+    padding-top: 100px;
+    background-image:  radial-gradient(93.75% 105.88% at 0.39% 99.26%, rgba(150, 1, 7, 0.4) 1.42%, rgba(30, 1, 66, 0.51) 53.8%, rgba(13, 14, 32, 0) 100%),linear-gradient(98.24deg, #1D0005 14.75%, rgba(0, 8, 29, 0.48) 100%),url(https://assets.nflxext.com/ffe/siteui/vlv3/39f3c979-c105-4948-9c51-611eedf3a6fd/71ec72f0-c17a-4100-a2a3-a52e7b8ac733/IN-en-20230612-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  
+
+}
+.text-part{
+    width: 50%;
+    height:auto;
+
+   
+}
+.text-part h2{
+    font-size: 50px;
+    
+}
+.text-part h5{
+    font-size: 30px;
+
+}
+.text-part p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.text-part span{
+    margin-top: 30px;
+    
+}
+
+.text-part span input{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(15, 1, 1);
+    border: none;
+    border-radius:5px;
+    
+}
+.text-part span button{
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+/* *************************************1 */
+.tv-section{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.left-section{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.right-section{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-section img{
+    width: 400px;
+}
+.text-section{
+    color: white;
+
+}
+.text-section h2{
+    font-size: 60px;
+}
+.text-section h6{
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* ************************************************ 2*/
+.mobile-section{
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+.text-section h1{
+    font-size: 50px;
+}
+.text-section h5{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.faq-section{
+    width: 100%;
+    height: auto;
+}
+.faq-section h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 355px;
+    
+}
+.faq-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.faq-box{
+    width: 800px;
+    height: 70px;
+    background-color: rgb(17, 33, 47);  
+    margin-top: 20px;  
+}
+.faq-box span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.faq-box span p {
+    font-size: 20px;
+    color: white;
+
+}
+.faq-box span i{
+    color: white;
+    
+}
+.last{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.last p{
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+}
+.last span input{
+    width: 300px;    
+    height: 50px;
+    
+    border-radius: 5px;
+    background-color: rgb(22, 21, 21);
+    border: 1px solid white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.last span{
+    margin-top: 10px;
+}
+.last span button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 5px;
+    
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    padding-inline: 80px;
+}
+.para{
+    margin-top: 50px;
+}
+.para p{
+    color:gray;
+    font-size: 20px;
+    font-weight: 200;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  
+}
+ul a{
+    color:gray;
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive css code */
+
+
+@media (max-width:768px) {
+    .main-container{
+        max-width: 100%;
+        height: auto;
+        padding-block: 0px;
+    }
+    nav{
+        width: 100%;
+        padding-block: 0px
+    }
+    nav img{
+        width: 100px;
+    }
+    nav span button{
+        width: 70px;
+        display: none;
+    }
+    #btn-none{
+        display: none;
+
+    }
+    #btn-display{
+        display: inline;
+    }
+    .container{
+        width: 100%;
+        height: auto;
+        padding-block: 0px;
+    }
+    .box-1{
+        width: 100%;
+        height: 600px;
+        padding-left: 20px;
+        padding-top: 40px;
+    }
+    .text-part{
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        align-items: start;
+        justify-self: center;
+        flex-direction: column;
+    }
+    .text-part h2{
+        font-size: 35px;
+    }
+    .text-part h5{
+        font-size: 20px;
+    }
+    .text-part p{
+        font-size: 16px;
+    }
+    .text-part span input{
+        width: 300px;
+    }
+    .text-part span{
+        flex-direction: column;
+    }
+    .text-part span button{
+        margin-top: 20px;
+    }
+    .tv-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .left-section{
+        width: 100%;
+        height: auto;
+    }
+    .right-section{
+        width: 100%;
+        height: auto;
+    }
+    .text-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .text-section h2{
+        font-size: 32px;
+    }
+    .text-section h6{
+        font-size: 16px;
+    }
+    .faq-section{
+        width: 100%;
+        height: auto;
+        
+        
+    }
+    .faq-section h1{
+        width: 100%;
+        font-size: 30px;
+       
+    
+
+    }
+    .faq-container{
+        width: 100%;
+        height: auto;
+    }
+    .faq-box{
+        width: 500px;
+    }
+    .last{
+        width: 100%;
+        padding-inline: 30px;
+        text-align: center;
+    }
+    .last p{
+        margin-top: 30px;
+
+
+    }
+    .last span input{
+        width: 450px;
+    }
+    .last span button{
+        margin-top: 10px;
+        width: 150px;
+        font-size: 20px;
+        
+    }
+    .footer{
+        width: 100%;
+        height: 700px;
+        margin: 0px;
+        
+    }
+    .para{
+        width: 100%;
+
+    }
+    .para p{
+        font-size: 18px;
+    
+    }
+    .footer ul{
+        flex-direction: column;
+        margin-top: 30px;
+        /* margin-right: 300px; */
+    }
+    .footer ul a{
+        /* display: flex;
+        align-items: center;
+        justify-content: start; */
+        margin-right: 300px;
+
+    }
+    .footer button{
+        margin-top: 20px;
+        width: 120px;
+        height: 30px;
+        font-size: 18px;
+        color: white;
+        background-color:rgb(30, 29, 29);
+        border: 1px solid white;
+        
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+     
